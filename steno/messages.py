@@ -1,6 +1,8 @@
 """This is meant to pass rudimentary messages."""
 #from crypt import methods
 #import functools, random, string
+from steno.db import init_db
+from flask import current_app
 
 from unittest.mock import DEFAULT
 from flask import (
