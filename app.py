@@ -4,7 +4,6 @@ from flask import Flask
 from flask import request
 from flask import g
 from steno.messages import bp as messages_blueprint
-from steno.db import init_db_command
 from steno.db import init_app
 
 application = Flask(__name__, static_folder='static', template_folder='templates')

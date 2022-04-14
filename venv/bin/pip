@@ -1,4 +1,4 @@
-#!/home/ace/git/steno/venv/bin/python3
+#!/home/alex/git/steno/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
